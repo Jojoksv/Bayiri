@@ -1,0 +1,114 @@
+
+
+.OurProject{
+    display: flex;
+    flex-direction: column;
+}
+.OurProject-firstContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+
+    h1{
+        font-size: 3em;
+        padding: 7rem 5rem;
+        text-align: center;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    span{
+        font-size: 6em;
+        color: #3978ff;
+        position: absolute;
+    }
+    span:nth-child(1){
+        top: -20%;
+        left: 2.5%;
+    }
+    span:nth-child(2){
+        bottom: -60%;
+        right: 45%;
+        transform: rotateX(180deg);
+    }
+}
+.OurProject-firstContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-size: 15em;
+        padding-top: 2rem;
+    }
+    p{
+        padding: 1rem 4rem;
+        padding-top: 3rem;
+        font-size: 1.15em;
+        color: #464646;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0;
+    }
+}
+.OurProject-SecndContainer{
+    padding: 0 3rem;
+}
+.proj-desc-item{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 5rem 0;
+    gap: 20px;
+
+    
+    .projImgBackg:nth-child(1){
+        background-image: url('../assets/ourPro1.webp');
+    }
+    .projImgBackg2{
+        background-image: url('../assets/ourPro2.webp');
+    }
+    .projImgBackg3{
+        background-image: url('../assets/ourPro3.webp');
+    }
+    .projImgBackg, .projImgBackg3, .projImgBackg2{
+        height: 69vh;
+        border-radius: 15px;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+    span{
+        font-size: 4.5em;
+        font-weight: 450;
+        color: #3978ff;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0;
+    }
+    h2{
+        font-size: 2.5em;
+        color: #3978ff;
+        letter-spacing: 2px;
+    }
+    p{
+        width: 80%;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0;
+    }
+}

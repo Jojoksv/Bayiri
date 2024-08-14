@@ -1,0 +1,39 @@
+
+.BrandWorks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 146px;
+}
+.BrandFirst{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+    gap: 7px;
+    background: #3978ff;
+    width: 28.1%;
+    color: #fff;
+
+    span{
+        font-size: .9em;
+    }
+}
+.scrollbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 71.9%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #f8f8f8;
+}
+.scroll{
+    display: inline-block;
+}
+.scroll img{
+    width: auto;
+    height: 38px;
+    margin-right: 80px;
+}

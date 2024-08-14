@@ -1,0 +1,45 @@
+
+.FirstSection{
+    height: 127vh;
+    background: url('../assets/firstSec.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.strategies{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    div{
+        position: absolute;
+        bottom: 6.5%;
+        left: 3.5%;
+        font-size: 1.8em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+
+        span{
+            color: #fff;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        h1{
+            color: #fff;
+            width: 70%;
+            font-size: 1.8em;
+        }
+        button{
+            padding: .9rem 0;
+            width: 190px;
+            background: #3978ff;
+            border: 1px solid #3978ff;
+            border-radius: 10px;
+            color: #fff;
+            cursor: pointer;
+            font-size: .7em;
+        }
+    }
+}
